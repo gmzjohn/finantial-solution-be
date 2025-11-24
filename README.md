@@ -9,6 +9,16 @@ Welcome to the **Financial Solution Backend**. This repository contains the back
 
 Follow these steps to get your development environment up and running.
 
+### ⚙️ Configuration
+
+Before running the application, create a `.env` file in the root directory to configure the database connection.
+
+**Example `.env` file:**
+
+```env
+DB_URL=postgres://[YOUR-USERNAME]:[YOUR-PASSWORD]@localhost:5432/[YOUR-DATABASE]
+```
+
 ### 🐳 Build & Run with Podman
 
 We use Podman for containerization. You can build and run the environment with the following commands:
