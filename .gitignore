@@ -1,3 +1,5 @@
 .ash_history
 .config
 .cache
+.env
+.go
