@@ -4,6 +4,9 @@ RUN apk add --no-cache git make
 
 WORKDIR /app
 
+ENV GOCACHE=/app/.cache/go-build
+ENV GOMODCACHE=/app/.cache/go-mod
+
 RUN go install github.com/air-verse/air@latest
 
 EXPOSE 8080
